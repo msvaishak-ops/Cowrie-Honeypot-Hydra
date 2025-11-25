@@ -44,3 +44,7 @@ login attempt [root/password]
 
 
 That’s your Hydra attack being recorded 🎯
+
+📌 Example Captured Log (from your experiment)
+2025-11-24T15:32:21.792540Z [HoneyPotSSHTransport,5,192.168.56.20] login attempt [b'root'/b'123456789'] succeeded
+2025-11-24T15:32:21.792768Z [HoneyPotSSHTransport,5,192.168.56.20] avatar 
