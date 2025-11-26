@@ -11,15 +11,6 @@ sudo gunzip /usr/share/wordlists/rockyou.txt.gz
 2️⃣ Run Hydra SSH brute force against Cowrie honeypot
 hydra -t 4 -l root -P /usr/share/wordlists/rockyou.txt 192.168.56.10 -s 2222 ssh
 
-🟨 Kali IP Setup (Required Before Attack)
-
-You can also include this in the repo under network-config.txt
-
-sudo ip addr flush dev eth0
-sudo ip addr add 192.168.56.20/24 dev eth0
-sudo ip link set eth0 up
-ping 192.168.56.10
-
 🟧 View Logs on Cowrie (Ubuntu)
 sudo su - cowrie
 cd ~/cowrie/var/log/cowrie/
