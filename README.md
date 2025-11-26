@@ -40,3 +40,10 @@ network:
         - 192.168.56.10/24
 
 ![My screenshot](https://github.com/msvaishak-ops/Cowrie-Honeypot-Hydra/blob/main/ssh%20netsh%20command.png?raw=true)
+
+<img width="1600" height="900" alt="ip setup and ping ubuntu" src="https://github.com/user-attachments/assets/70a94d3b-18df-4f0e-a14e-701b2d5fe87a" />
+
+
+
+
+
