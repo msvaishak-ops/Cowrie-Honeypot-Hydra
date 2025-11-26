@@ -1,0 +1,39 @@
+🖥️ Cowrie Honeypot (Ubuntu) - Network Configuration
+=================================================
+Network Mode     : Internal Network (VirtualBox)
+Network Name     : honeynet
+Interface Used   : enp0s3
+Assigned IP      : 192.168.56.10
+Subnet Mask      : 255.255.255.0
+Protocol         : Static IP
+
+Ubuntu Netplan Configuration:
+-------------------------------------------------
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp0s3:
+      dhcp4: no
+      addresses:
+        - 192.168.56.10/24
+
+💣 Kali Linux (Attacker) - Network Configuration
+=================================================
+Network Mode     : Internal Network (VirtualBox)
+Network Name     : honeynet
+Interface Used   : eth0 (may vary: use `ip a` to confirm)
+Assigned IP      : 192.168.56.20
+Subnet Mask      : 255.255.255.0
+Protocol         : Static IP
+
+Kali Attacker Static IP Commands:
+-------------------------------------------------
+sudo ip addr flush dev eth0
+sudo ip addr add 192.168.56.20/24 dev eth0
+sudo ip link set eth0 up
+
+Connectivity Test:
+-------------------------------------------------
+ping 192.168.56.10 from kali to ubuntu
+ping 192.168.56.20 from ubuntu to kali
