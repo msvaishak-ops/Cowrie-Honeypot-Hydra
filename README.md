@@ -38,3 +38,5 @@ network:
       dhcp4: no
       addresses:
         - 192.168.56.10/24
+
+[(image alt)](https://github.com/msvaishak-ops/Cowrie-Honeypot-Hydra/blob/main/ssh%20netsh%20command.png?raw=true)
