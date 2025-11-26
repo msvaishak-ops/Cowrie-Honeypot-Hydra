@@ -39,11 +39,17 @@ network:
       addresses:
         - 192.168.56.10/24
 
-![My screenshot](https://github.com/msvaishak-ops/Cowrie-Honeypot-Hydra/blob/main/ssh%20netsh%20command.png?raw=true)
 
-<img width="1600" height="900" alt="ip setup and ping ubuntu" src="https://github.com/user-attachments/assets/70a94d3b-18df-4f0e-a14e-701b2d5fe87a" />
+<img width="1280" height="800" alt="cowrie log of hydra attack" src="https://github.com/user-attachments/assets/165575a6-15f1-4ad5-9a9c-772dc1a9e26f" /><img width="1600" height="900" alt="ip setup and ping ubuntu" src="https://github.com/user-attachments/assets/6e01e6ba-704b-428f-9473-4b330b40c77d" />
 
+<img width="1600" height="900" alt="hydra command execution" src="https://github.com/user-attachments/assets/7a61a529-0255-43be-a5a5-d745c1225e1e" />
+<img width="1280" height="800" alt="pinging kali" src="https://github.com/user-attachments/assets/7d5ab3c8-52e7-419f-a9d1-0aa420bdc94c" />
 
+<img width="1280" height="800" alt="cowrie start and status" src="https://github.com/user<img width="1280" height="800" alt="net config and pinging" src="https://github.com/user-attachments/assets/197b0705-78ec-4e33-9207-f61b937e4ade" />
+-attachments/assets/c2e3af17-30e6-44a1-b551-0f8db0c637ac" />
+
+<img width="1280" hei<img width="1280" height="800" alt="cowrie logs" src="https://github.com/user-attachments/assets/679da717-e0a2-4a0a-955b-359652284153" />
+ght="800" alt="cowrie json" src="https://github.com/user-attachments/assets/0612acfe-47ac-4d1c-b36e-899a2696ac49" />
 
 
 
