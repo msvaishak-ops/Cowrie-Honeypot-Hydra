@@ -51,7 +51,7 @@ network:
 <img width="1280" hei<img width="1280" height="800" alt="cowrie logs" src="https://github.com/user-attachments/assets/679da717-e0a2-4a0a-955b-359652284153" />
 ght="800" alt="cowrie json" src="https://github.com/user-attachments/assets/0612acfe-47ac-4d1c-b36e-899a2696ac49" />
 
-https://github.com/msvaishak-ops/Cowrie-Honeypot-Hydra/blob/main/cowrie%20log%20of%20hydra%20attack.png?raw=true
+![image alt]https://github.com/msvaishak-ops/Cowrie-Honeypot-Hydra/blob/main/cowrie%20log%20of%20hydra%20attack.png?raw=true
 
 
 
